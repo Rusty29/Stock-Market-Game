@@ -1,7 +1,31 @@
 # Stock-Market-Game
-Software Engineering Stock Market Game
+I have done some of the the front end stuff.  I am going to upload that this friday and hopefully we an just use the readme as a TO DO list.  I am pretty sure we will have to impliment some api to get the data from yahoo finance and then to a database.  Other than that we an use most of what django has to offer to create an application in a few weeks.
 
-
-This is the repository for this whole project.  I am going to get the ruby files up since it will be done in ROR as a web application.
-
--Jake
+We use the model-view-controller setup:
+1. Create Models: Which will be fields in our database, which will get altered by a controller to update the view
+ - Stock Prices Model
+ - Stock Model
+ - Buy/Sell Order
+ - Portfolio (for individual users)
+ - Maybe a few others
+ - 
+ - All these can be done with an individual user
+2. Create Views:
+ - Error
+ - Register user
+ - Login for existing user
+ - Logout (only need one)
+ - Help
+ - Search (...)
+ - Show individual stock
+ - Buy Stock
+ - Sell Stock
+ - Create list of users and show leaderboard
+3. Templates:
+ - Help
+ - Index
+ - Leaderboard
+ - portfolio
+ - stock (individual)
+ 
+On the front end I feel like we can handle it easy with django, the backend can cause problems.
