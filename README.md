@@ -2,7 +2,8 @@
 I have done some of the the front end stuff.  I am going to upload that this friday and hopefully we an just use the readme as a TO DO list.  I am pretty sure we will have to impliment some api to get the data from yahoo finance and then to a database.  Other than that we an use most of what django has to offer to create an application in a few weeks.
 
 We use the model-view-controller setup:
-1. Create Models: Which will be fields in our database, which will get altered by a controller to update the view
+Create Models: Which will be fields in our database, which will get altered by a controller to update the view
+Models:
  - Stock Prices Model
  - Stock Model
  - Buy/Sell Order
@@ -10,7 +11,7 @@ We use the model-view-controller setup:
  - Maybe a few others
  - 
  - All these can be done with an individual user
-2. Create Views:
+Create Views:
  - Error
  - Register user
  - Login for existing user
@@ -21,7 +22,7 @@ We use the model-view-controller setup:
  - Buy Stock
  - Sell Stock
  - Create list of users and show leaderboard
-3. Templates:
+Templates:
  - Help
  - Index
  - Leaderboard
