@@ -10,3 +10,5 @@ Create Views: Error, Register user, Login for existing user, Logout (only need o
 Templates: Help, Index, Leaderboard, Portfolio, Stock
  
 On the front end I feel like we can handle it easy with django, the backend can cause problems.
+
+Can "fork" the project to edit it
